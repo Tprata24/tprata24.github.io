@@ -5,12 +5,12 @@ subtitle: "Entrepreneur · Marketing Analytics & Data Strategy · AI Implementat
 
 ::: {.columns}
 ::: {.column width="32%"}
-![headshot](images/headshot.jpg){width=100% style="border-radius: 50%;"}
+![headshot](images/headshot.jpg){width=100% style="border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 30%; display: block;"}
 :::
 ::: {.column width="68%" style="padding-left: 2.5rem;"}
 ### Hi, I'm Thomas.
 
-I'm a builder — of companies, of data systems, and of the reporting infrastructure that lets founders and executives make decisions with confidence. Over the last 8+ years I've co-founded and scaled a healthcare services company to a $15M valuation, launched a consumer apparel brand with my partner, and I'm currently building an AI-powered labor-compliance SaaS platform. Across all of it, the thread is the same: turn messy data into a clear story that drives the next decision.
+I am an entrepreneur with a proven background, Over the last 8+ years I've co-founded and scaled a healthcare services company, launched a consumer apparel brand with my partner, and I'm currently building an AI-powered labor-compliance SaaS platform. Across all of it, the thread is the same: turn messy data into a clear story that drives the next decision.
 
 **Based in San Dimas, CA** · [Tom@breakplate.com](mailto:Tom@breakplate.com) · [LinkedIn](https://www.linkedin.com/search/results/all/?keywords=Thomas%20Prata)
 :::
@@ -24,7 +24,7 @@ I'm looking to connect with founders, investors, and operators who need someone 
 
 ## About Me
 
-I hold a **B.S. in Business Administration (Marketing)** from **California State Polytechnic University, Pomona**, where I also competed as an NCAA Track & Field athlete in the decathlon — ten events, one score, no room to specialize in just one skill. That's more or less how I've approached my career since: rather than picking one lane, I've built the range to run finance, operations, marketing, and analytics at the same time, which is exactly what early-stage companies need from a co-founder.
+I am working towards a **B.S. in Business Administration (Marketing)** from **California State Polytechnic University, Pomona**, where I also competed as an NCAA Track & Field athlete as a Decathalete. That's more or less how I've approached my career since: rather than picking one lane, I've built the range to run finance, operations, marketing, and analytics at the same time, which is exactly what early stage companies need from a co-founder.
 
 Since 2022 I've been building **Prevent Medical Solutions** from the ground up, alongside launching **Havea**, an apparel brand I co-founded with my girlfriend, and most recently **BreakPlate**, a labor-compliance automation platform I'm building with my friend and co-founder McGwire Herbert. Details on all three are on the [Projects](projects.qmd) page.
 
@@ -65,3 +65,4 @@ I'm always glad to talk to founders, investors, or fellow operators. The fastest
 ---
 
 *Welcome to my portfolio — take a look at my [projects](projects.qmd), a live [dashboard](dashboard.qmd) of one of my ventures, and a [presentation](presentation.qmd) walking through my technical work.*
+
