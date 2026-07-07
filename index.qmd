@@ -30,11 +30,10 @@ Since 2022 I've been building **Prevent Medical Solutions** from the ground up, 
 
 ::: {.card-section}
 ### Highlighted Achievements
-- Co-founded and scaled **Prevent Medical Solutions** from a startup to **580+ employees** and a **$15M valuation**
+- Co-founded and scaled **Prevent Medical Solutions** from a startup to **580+ employees**
 - Designed the financial models, KPI dashboards, and workforce-analytics systems the board uses to make strategic decisions
 - Currently run marketing analytics engagements for **6+ retainer clients**, spanning law firms, professional services, and consumer brands
 - Deployed AI-powered client-acquisition agents that measurably increased lead volume for legal-industry clients
-- Former **NCAA Division I Track & Field athlete** (Decathlon), Cal Poly Pomona
 :::
 
 ## Core Skills
