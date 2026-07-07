@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Thomas Prata"
+  description: "Entrepreneur & marketing analytics professional — building data-driven companies in healthcare services, consumer apparel, and labor-compliance SaaS."
+  site-url: "https://tprata24.github.io"
+  favicon: images/headshot.jpg
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Dashboard"
+        href: dashboard.qmd
+      - text: "Presentation"
+        href: presentation.qmd
+      - text: "Résumé"
+        href: resume.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/search/results/all/?keywords=Thomas%20Prata
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:Tom@breakplate.com
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Thomas Prata · Built with Quarto + GitHub Pages"
+  twitter-card: true
+  open-graph: true
+  page-navigation: true
+  search: true
+
+format:
+  html:
+    theme: [flatly, theme.scss]
+    toc: true
+    include-in-header: includes/ga-head.html
+    grid:
+      body-width: 900px

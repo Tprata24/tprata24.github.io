@@ -1,0 +1,41 @@
+---
+title: "BreakPlate"
+description: "Co-founding a real-time wage-and-hour compliance SaaS platform for California employers, tackling a $2B+ annual liability market."
+date: 2025-09-01
+image: "https://placehold.co/600x400/13315C/FFFFFF?text=BreakPlate"
+categories: [Entrepreneurship, SaaS, AI, Compliance, GTM Strategy]
+---
+
+#### **Overview**
+
+**BreakPlate** (a product of TIMEFRAME, LLC) is the venture I'm currently building with my friend and co-founder, McGwire Herbert. It's a real-time wage-and-hour compliance platform built specifically around California labor law — the same law that has produced billion-dollar-scale liability for employers who couldn't prove a break was actually offered.
+
+The core insight: payroll platforms like Rippling, Gusto, and ADP protect employers from the IRS — but none of them protect against a PAGA (Private Attorneys General Act) class-action attorney, because a timesheet isn't legal proof that a break happened. BreakPlate closes that gap by generating a **biometrically-authenticated, law-referenced audit trail at every clock-out**, automatically.
+
+::: {.columns}
+::: {.column width="50%"}
+#### **How It Works**
+- **Real-time enforcement:** compliance checks run at clock-out, not days later at payroll sync — so violations can still be remediated the same shift
+- **Biometric attestation:** break offers are confirmed via Face ID / Touch ID, tying the record to the employee's identity so it can't be falsified after the fact
+- **AI law ingestion:** compliance rules update automatically as California (and soon Nevada, Arizona, and other states) amend labor code — no manual patching
+:::
+::: {.column width="50%"}
+#### **The Market Problem**
+- California wage-and-hour liability exceeds **$2B annually**
+- TJ Maxx, Starbucks, and AlliedBarton alone have **settled $42.5M+** combined for missed-break violations
+- Employers who take documented "reasonable steps" see roughly an **85% reduction** in PAGA penalties
+- **Zero** existing payroll platforms can actually prove a break was offered — that's the gap BreakPlate fills
+:::
+:::
+
+#### **My Role & Contributions**
+
+As co-founder, I lead go-to-market strategy and the marketing/growth analytics side of the business — positioning BreakPlate against incumbent payroll and HR platforms, building the pricing and outbound strategy for California employers, and setting up the data infrastructure to track pipeline, trial conversion, and customer acquisition cost as we move toward launch and fundraising. I'm also applying the same AI-agent and automation experience from my consulting work to help shape how BreakPlate's compliance-monitoring product is positioned to both HR buyers and legal/risk stakeholders.
+
+#### **Learning Outcomes**
+
+- Building GTM strategy for a category-creating B2B SaaS product (compliance-as-defense, not just compliance-as-checklist)
+- Translating a technical/legal product (AI law ingestion, biometric attestation) into a story that lands with HR and risk-management buyers
+- Structuring an early-stage startup for investor conversations — market sizing, liability data, and a defensible wedge against much larger payroll incumbents
+
+[Visit BreakPlate →](https://www.breakplate.com/){.btn-cta}

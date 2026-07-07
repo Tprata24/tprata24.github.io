@@ -1,0 +1,115 @@
+---
+title: "Building Data-Driven Companies"
+subtitle: "A walkthrough of the analytics systems behind Prevent Medical Solutions, Havea, and BreakPlate"
+author: "Thomas Prata"
+format:
+  revealjs:
+    theme: [simple]
+    css: theme.scss
+    transition: slide
+    slide-number: true
+    footer: "Thomas Prata · tprata24.github.io"
+    logo: images/headshot.jpg
+    incremental: false
+---
+
+## Who I Am {.center}
+
+::: {.incremental}
+- Co-founder, operator, and marketing-analytics practitioner
+- 8+ years turning messy multi-channel data into decisions
+- Currently building across **three companies**: event medicine, DTC apparel, and compliance SaaS
+- Former NCAA Decathlete — comfortable being good at *many* things at once
+:::
+
+---
+
+## The Problem I Keep Solving
+
+> Founders and executives don't lack data. They lack a **trustworthy pipeline** from raw data to a decision.
+
+Across every company I've worked on, the pattern is the same:
+
+1. Data lives in 4–6 disconnected systems (CRM, ad platforms, POS, ops tools)
+2. No one owns reconciling it
+3. Decisions get made on vibes, not verified numbers
+
+My job has consistently been building the layer that fixes that.
+
+---
+
+## Case 1 — Prevent Medical Solutions {.center}
+
+**Problem:** Scaling from a startup to 580+ employees meant staffing and budget decisions had to be made *before* an event happened, not reconciled after.
+
+**What I built:**
+
+- Forecast models linking contracted event volume → staffing needs → labor cost
+- Board-level KPI dashboards tracking valuation-relevant metrics
+- Workforce-analytics pipeline supporting multi-site hiring at speed
+
+---
+
+## Case 2 — Havea Apparel {.center}
+
+**Problem:** A DTC Shopify brand needs to know which channel × creative × product combination actually converts — not just last-click attribution.
+
+**What I built:**
+
+```{.python}
+# Simplified shape of the attribution join
+# (ad platform export + Shopify orders + on-site sessions)
+
+attributed = (
+    sessions
+    .merge(ad_spend, on=["utm_campaign", "date"])
+    .merge(orders, on="session_id", how="left")
+    .assign(cac = lambda d: d.spend / d.orders.replace(0, pd.NA))
+)
+```
+
+Meta Ads Manager + GA4 + Shopify orders, joined into one attribution table — so ad spend decisions are made on margin, not just click volume.
+
+---
+
+## Case 3 — BreakPlate {.center}
+
+**Problem:** California wage-and-hour liability is a **$2B+/year** problem, and no payroll platform can *prove* a break was offered.
+
+**The product's technical core:**
+
+- Real-time compliance checks at clock-out (not batch, days later)
+- Biometric attestation (Face ID / Touch ID) tied to each record
+- AI-driven ingestion of statutory changes across jurisdictions
+
+**My role:** GTM strategy, positioning against payroll incumbents, and the growth-analytics stack (pipeline, trial conversion, CAC) as we move toward launch.
+
+---
+
+## The Common Analytics Stack {.center}
+
+| Layer | Tools I use |
+|---|---|
+| Extraction | SQL, Python, platform APIs (Meta, GA4, Shopify) |
+| Transformation | Python/Pandas, Excel/Sheets for lighter workflows |
+| Storage / CRM | Salesforce, HubSpot |
+| Reporting | Dashboards (see the [Dashboard tab](dashboard.qmd)), executive decks |
+| Automation | AI agents for lead qualification & funnel automation |
+
+---
+
+## Why This Matters {.center}
+
+::: {.incremental}
+- Good data infrastructure is a **competitive advantage**, not overhead
+- The same skill set — build the pipeline, trust the number, tell the story — transfers across healthcare services, DTC retail, and B2B SaaS
+- I'm looking for the next place to apply it
+:::
+
+---
+
+## Let's Talk {.center}
+
+**Thomas Prata**
+
+[Tom@breakplate.com](mailto:Tom@breakplate.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/search/results/all/?keywords=Thomas%20Prata) &nbsp;·&nbsp; [Portfolio](index.qmd)

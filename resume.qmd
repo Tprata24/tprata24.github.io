@@ -1,0 +1,81 @@
+---
+title: "Résumé"
+---
+
+You can download the PDF version of my résumé [here](resume/Resume.pdf){.btn-cta}.
+
+# Professional Summary
+
+Data-driven marketing analytics professional and entrepreneurial leader with 8+ years of experience translating complex data into actionable business insights. Proven ability to design and deploy marketing measurement frameworks, automate reporting pipelines, and implement AI-powered systems that drive measurable client acquisition growth. Experienced managing cross-functional stakeholders, vendor relationships, and multi-client analytics engagements across healthcare, legal, apparel, and event industries.
+
+# Core Competencies
+
+::: {.columns}
+::: {.column width="50%"}
+- Marketing Analytics & Measurement Strategy
+- SQL & Data Extraction / Querying
+- Python · Google Analytics (GA4) · Meta Ads Manager
+- Data Visualization & BI Reporting
+- AI Agent Deployment & Funnel Automation
+- CRM Management (Salesforce, HubSpot)
+:::
+::: {.column width="50%"}
+- Cross-Functional Stakeholder Management
+- Budget Planning & Financial Oversight
+- Vendor & Agency Management
+- Project Management & Process Improvement
+- Advanced Excel / Google Sheets
+- Strategic Communications & Presentations
+:::
+:::
+
+# Education
+
+| Degree | Institution | Notes |
+|---|---|---|
+| B.S., Business Administration (Marketing) | California State Polytechnic University, Pomona | Former NCAA Track & Field Athlete (Decathlon) |
+
+# Professional Experience
+
+### Marketing Analytics Consultant | AI Implementation Specialist
+**Independent Marketing & Analytics Contractor** · 2024 – Present
+
+- Deliver ongoing marketing analytics consulting to 6+ clients on retainer, including law firms, professional services companies, and consumer brands, designing measurement strategies and reporting frameworks aligned to business goals
+- Architect and deploy AI-powered client acquisition agents and automated marketing funnels within law firm practices, directly increasing lead volume and reducing manual intake overhead
+- Design and implement end-to-end marketing analytics for Shopify e-commerce platforms, including conversion tracking, funnel performance dashboards, and campaign attribution reporting
+- Extract, clean, and analyze marketing data across Google Analytics, Meta Ads Manager, and CRM platforms (Salesforce, HubSpot) to produce stakeholder-ready insights and actionable recommendations
+- Build automated reporting solutions and data pipelines using SQL, Python, and advanced Excel/Sheets, reducing manual reporting time and improving data accuracy
+- Translate complex multi-channel campaign data into executive-level presentations and dashboards, enabling data-informed budget allocation decisions
+- Manage vendor and agency relationships, ensuring data consistency, quality, and alignment across all reporting deliverables
+
+---
+
+### Co-Founder / President / Board Member
+**Prevent Medical Solutions** · 2022 – Present
+
+- Co-founded and scaled an EMS company from startup to 580+ employees and a $15M valuation, driving all strategic data, financial analytics, and operational reporting
+- Designed and maintained financial planning models, budget forecasts, and KPI dashboards used by the board and executive team to guide strategic decisions
+- Negotiated and managed contracts with event organizations and vendor partners, leveraging data analysis to evaluate ROI and performance outcomes
+- Built workforce analytics and hiring pipeline reporting systems supporting rapid headcount scaling and multi-site operational deployments
+
+---
+
+### Site Operations Manager / EMT-B
+**Emergency 1 Response** · 2021 – 2022
+
+- Managed logistics, staffing, and operational data for temporary medical facilities at large-scale live events
+- Led cross-functional teams and coordinated multi-vendor resources under high-pressure timelines
+
+---
+
+### Site Operations Liaison
+**Insomniac Events** · 2021
+
+- Coordinated operational readiness and logistics for dispatch centers and temporary hospitals servicing 600+ patients daily across major live events
+
+# Technical Skills
+
+- **Analytics & Data:** SQL, Python, Advanced Excel & Google Sheets, Google Analytics (GA4), Meta Ads Manager
+- **CRM & Marketing Platforms:** Salesforce, HubSpot, Shopify (analytics & reporting)
+- **AI & Automation:** AI agent deployment, marketing funnel automation, workflow automation tools
+- **Reporting & BI:** Dashboard design, data visualization, executive reporting, campaign attribution modeling

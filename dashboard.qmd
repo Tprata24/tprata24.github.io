@@ -1,0 +1,174 @@
+---
+title: "Dashboard"
+format:
+  dashboard:
+    orientation: rows
+    theme: [flatly, theme.scss]
+    nav-buttons:
+      - icon: linkedin
+        href: https://www.linkedin.com/search/results/all/?keywords=Thomas%20Prata
+logo: images/headshot.jpg
+---
+
+```{python}
+#| echo: false
+#| output: false
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+
+# NOTE: Figures below are illustrative estimates built from publicly
+# available company milestones (founding year, current employee count,
+# current valuation, and 2023-2025 attendee totals reported on
+# preventems.com). They are intended to demonstrate dashboard design and
+# data storytelling, not to represent audited financials.
+
+growth = pd.DataFrame({
+    "year": [2022, 2023, 2024, 2025],
+    "employees": [18, 140, 340, 580],
+    "valuation_m": [0.6, 4.2, 9.0, 15.0],
+})
+
+attendees = pd.DataFrame({
+    "year": [2023, 2024, 2025],
+    "attendees_m": [1.7, 2.1, 2.3],
+})
+
+event_scale = pd.DataFrame({
+    "event_size": ["Under 5,000", "5,000 – 50,000", "50,000 – 185,000+"],
+    "share_of_events": [55, 33, 12],
+})
+
+market = pd.DataFrame({
+    "company": ["TJX / TJ Maxx", "Starbucks", "AlliedBarton"],
+    "settlement_m": [8.5, 23, 11],
+})
+```
+
+# Prevent Medical Solutions
+
+## Row {height="20%"}
+
+```{python}
+#| content: valuebox
+#| title: "Current Employees"
+#| icon: people-fill
+#| color: primary
+dict(value = "580+")
+```
+
+```{python}
+#| content: valuebox
+#| title: "Company Valuation"
+#| icon: graph-up-arrow
+#| color: primary
+dict(value = "$15M")
+```
+
+```{python}
+#| content: valuebox
+#| title: "Attendees Protected (2023–25)"
+#| icon: shield-check
+#| color: primary
+dict(value = "6.1M+")
+```
+
+```{python}
+#| content: valuebox
+#| title: "Largest Single Event"
+#| icon: people
+#| color: secondary
+dict(value = "185,000")
+```
+
+## Row {height="80%"}
+
+### Column {width="60%"}
+
+```{python}
+#| title: "Headcount & Valuation Growth (2022–2025)"
+fig = go.Figure()
+fig.add_trace(go.Bar(x=growth["year"], y=growth["employees"], name="Employees",
+                      marker_color="#2E6F95", yaxis="y1"))
+fig.add_trace(go.Scatter(x=growth["year"], y=growth["valuation_m"], name="Valuation ($M)",
+                          mode="lines+markers", marker_color="#0B2545", yaxis="y2"))
+fig.update_layout(
+    yaxis=dict(title="Employees"),
+    yaxis2=dict(title="Valuation ($M)", overlaying="y", side="right"),
+    legend=dict(orientation="h", y=1.15),
+    margin=dict(t=30, l=10, r=10, b=10),
+)
+fig.show()
+```
+
+### Column {width="40%"}
+
+```{python}
+#| title: "Event Scale Mix"
+fig2 = px.pie(event_scale, names="event_size", values="share_of_events",
+              color_discrete_sequence=["#0B2545", "#2E6F95", "#8DA9C4"], hole=0.45)
+fig2.update_layout(margin=dict(t=10, l=10, r=10, b=10), showlegend=True)
+fig2.show()
+```
+
+```{python}
+#| title: "Attendees & Staff Protected Per Year (Millions)"
+fig3 = px.bar(attendees, x="year", y="attendees_m", text="attendees_m",
+              color_discrete_sequence=["#13315C"])
+fig3.update_traces(texttemplate="%{text}M", textposition="outside")
+fig3.update_layout(yaxis_title="Attendees (Millions)", xaxis_title="", margin=dict(t=30,l=10,r=10,b=10))
+fig3.show()
+```
+
+# BreakPlate Market Opportunity
+
+## Row {height="20%"}
+
+```{python}
+#| content: valuebox
+#| title: "Annual CA Wage-and-Hour Liability"
+#| icon: exclamation-triangle-fill
+#| color: danger
+dict(value = "$2B+")
+```
+
+```{python}
+#| content: valuebox
+#| title: "Combined Settlements Shown Below"
+#| icon: currency-dollar
+#| color: warning
+dict(value = "$42.5M")
+```
+
+```{python}
+#| content: valuebox
+#| title: "PAGA Penalty Reduction with Documented Steps"
+#| icon: shield-check
+#| color: success
+dict(value = "85%")
+```
+
+## Row {height="80%"}
+
+### Column {width="55%"}
+
+```{python}
+#| title: "Real Cases: Break-Compliance Settlements"
+fig4 = px.bar(market, x="company", y="settlement_m", text="settlement_m",
+              color_discrete_sequence=["#0B2545"])
+fig4.update_traces(texttemplate="$%{text}M", textposition="outside")
+fig4.update_layout(yaxis_title="Settlement ($M)", xaxis_title="", margin=dict(t=30,l=10,r=10,b=10))
+fig4.show()
+```
+
+### Column {width="45%"}
+
+::: {.card-section}
+#### Why this matters for BreakPlate's GTM
+
+Every one of these settlements happened because the employer **could not prove** a break was offered — not because breaks weren't taken. That single fact is the entire wedge: existing payroll platforms (Rippling, Gusto, ADP, Paychex) protect employers from the IRS, but none of them generate legally defensible, biometrically-authenticated proof at the moment of clock-out.
+
+This chart is the one slide that reliably gets a head nod from HR and risk-management buyers in early customer conversations — it reframes the product from "another timesheet app" to "the legal defense file your current payroll platform can't produce."
+:::
+
+<small>*Data compiled from publicly reported settlement figures and BreakPlate's public marketing materials (breakplate.com), current as of mid-2026.*</small>

@@ -1,0 +1,20 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  type: grid
+  categories: true
+  sort:
+    - "date desc"
+  fields: [image, title, description, categories]
+---
+
+I've spent the last several years building companies rather than just studying them — which means every project below comes with real revenue, real employees, and real compliance headaches attached. Below are the three ventures I've co-founded, spanning healthcare event services, consumer apparel, and B2B compliance SaaS. Each write-up covers the business problem, my role, the data/analytics systems I built, and the results.
+
+## What You'll Find
+
+- **Scaling operations with data:** how I used financial models and workforce analytics to help grow Prevent Medical Solutions to 580+ employees.
+- **Brand & e-commerce analytics:** building the marketing and customer data foundation for a DTC apparel brand.
+- **Product & GTM strategy for an early-stage SaaS startup:** how BreakPlate is using data to sell compliance software into a $2B+ liability market.
+
+---
