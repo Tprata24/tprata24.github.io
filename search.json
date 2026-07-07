@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "You can download the PDF version of my résumé here.\n\nProfessional Summary\nData-driven marketing analytics professional and entrepreneurial leader with 8+ years of experience translating complex data into actionable business insights. Proven ability to design and deploy marketing measurement frameworks, automate reporting pipelines, and implement AI-powered systems that drive measurable client acquisition growth. Experienced managing cross-functional stakeholders, vendor relationships, and multi-client analytics engagements across healthcare, legal, apparel, and event industries.\n\n\nCore Competencies\n\n\n\nMarketing Analytics & Measurement Strategy\nSQL & Data Extraction / Querying\nPython · Google Analytics (GA4) · Meta Ads Manager\nData Visualization & BI Reporting\nAI Agent Deployment & Funnel Automation\nCRM Management (Salesforce, HubSpot)\n\n\n\nCross-Functional Stakeholder Management\nBudget Planning & Financial Oversight\nVendor & Agency Management\nProject Management & Process Improvement\nAdvanced Excel / Google Sheets\nStrategic Communications & Presentations\n\n\n\n\n\nEducation\n\n\n\n\n\n\n\n\nDegree\nInstitution\nNotes\n\n\n\n\nB.S., Business Administration (Marketing)\nCalifornia State Polytechnic University, Pomona\nFormer NCAA Track & Field Athlete (Decathlon)\n\n\n\n\n\nProfessional Experience\n\nMarketing Analytics Consultant | AI Implementation Specialist\nIndependent Marketing & Analytics Contractor · 2024 – Present\n\nDeliver ongoing marketing analytics consulting to 6+ clients on retainer, including law firms, professional services companies, and consumer brands, designing measurement strategies and reporting frameworks aligned to business goals\nArchitect and deploy AI-powered client acquisition agents and automated marketing funnels within law firm practices, directly increasing lead volume and reducing manual intake overhead\nDesign and implement end-to-end marketing analytics for Shopify e-commerce platforms, including conversion tracking, funnel performance dashboards, and campaign attribution reporting\nExtract, clean, and analyze marketing data across Google Analytics, Meta Ads Manager, and CRM platforms (Salesforce, HubSpot) to produce stakeholder-ready insights and actionable recommendations\nBuild automated reporting solutions and data pipelines using SQL, Python, and advanced Excel/Sheets, reducing manual reporting time and improving data accuracy\nTranslate complex multi-channel campaign data into executive-level presentations and dashboards, enabling data-informed budget allocation decisions\nManage vendor and agency relationships, ensuring data consistency, quality, and alignment across all reporting deliverables\n\n\n\n\nCo-Founder / President / Board Member\nPrevent Medical Solutions · 2022 – Present\n\nCo-founded and scaled an EMS company from startup to 580+ employees and a $15M valuation, driving all strategic data, financial analytics, and operational reporting\nDesigned and maintained financial planning models, budget forecasts, and KPI dashboards used by the board and executive team to guide strategic decisions\nNegotiated and managed contracts with event organizations and vendor partners, leveraging data analysis to evaluate ROI and performance outcomes\nBuilt workforce analytics and hiring pipeline reporting systems supporting rapid headcount scaling and multi-site operational deployments\n\n\n\n\nSite Operations Manager / EMT-B\nEmergency 1 Response · 2021 – 2022\n\nManaged logistics, staffing, and operational data for temporary medical facilities at large-scale live events\nLed cross-functional teams and coordinated multi-vendor resources under high-pressure timelines\n\n\n\n\nSite Operations Liaison\nInsomniac Events · 2021\n\nCoordinated operational readiness and logistics for dispatch centers and temporary hospitals servicing 600+ patients daily across major live events\n\n\n\n\nTechnical Skills\n\nAnalytics & Data: SQL, Python, Advanced Excel & Google Sheets, Google Analytics (GA4), Meta Ads Manager\nCRM & Marketing Platforms: Salesforce, HubSpot, Shopify (analytics & reporting)\nAI & Automation: AI agent deployment, marketing funnel automation, workflow automation tools\nReporting & BI: Dashboard design, data visualization, executive reporting, campaign attribution modeling"
+  },
+  {
+    "objectID": "projects/havea-apparel.html",
+    "href": "projects/havea-apparel.html",
+    "title": "Havea Apparel",
+    "section": "",
+    "text": "Overview\nHavea is a direct-to-consumer outdoor-performance activewear brand I co-founded with my girlfriend, built for hikers, rock climbers, runners, and anyone who wants gear that doesn’t force a trade-off between comfort, performance, and affordability. The line — sports bras, leggings, and jackets — is built around fabrics we test ourselves for breathability, stretch, and recovery, with a brand promise we call “The Joy of Doing.”\nWhere my co-founder leads product design and brand direction, my focus has been the commercial and data engine behind the brand: e-commerce analytics, paid acquisition, and the reporting that tells us which products, channels, and campaigns are actually working.\n\n\n\n\nMy Role & Contributions\n\nDesigned and implemented end-to-end marketing analytics for the Shopify storefront, including conversion tracking, funnel dashboards, and multi-touch campaign attribution\nSet up and manage Meta Ads Manager campaigns targeting the outdoor/athletic customer segment\nBuilt recurring performance reporting connecting ad spend, site traffic, and conversion data into a single view\nManage customer data and retention workflows through CRM tooling\n\n\n\n\nBrand & Product\n\nProduct lines: sports bras, leggings, jackets — built for hiking, rock climbing, running, and highlining\nDifferentiator: in-house fabric testing for stretch, recovery, breathability, and fit across body types\nPositioning: performance-grade gear at a price point that doesn’t require choosing between quality and affordability\n\n\n\n\n\nThe Analytics Side\nA DTC apparel brand lives or dies on knowing which creative, channel, and product combination actually converts — and Shopify’s native reporting only tells part of that story. I built out conversion and funnel tracking that connects ad-platform data (Meta) with on-site behavior and purchase data, so we can see attribution across the full path, not just last-click. That’s let us make faster, more confident decisions about where to put ad spend and which products to feature first.\n\n\nLearning Outcomes\n\nStanding up an e-commerce analytics stack from scratch on a real, revenue-generating Shopify store\nRunning paid social campaigns end-to-end: targeting, creative testing, budget allocation, and attribution\nWhat co-founding a physical-product brand with a partner actually requires — from vendor sourcing to first sale\n\nVisit Havea Apparel →"
+  },
+  {
+    "objectID": "projects/breakplate.html",
+    "href": "projects/breakplate.html",
+    "title": "BreakPlate",
+    "section": "",
+    "text": "Overview\nBreakPlate (a product of TIMEFRAME, LLC) is the venture I’m currently building with my friend and co-founder, McGwire Herbert. It’s a real-time wage-and-hour compliance platform built specifically around California labor law — the same law that has produced billion-dollar-scale liability for employers who couldn’t prove a break was actually offered.\nThe core insight: payroll platforms like Rippling, Gusto, and ADP protect employers from the IRS — but none of them protect against a PAGA (Private Attorneys General Act) class-action attorney, because a timesheet isn’t legal proof that a break happened. BreakPlate closes that gap by generating a biometrically-authenticated, law-referenced audit trail at every clock-out, automatically.\n\n\n\n\nHow It Works\n\nReal-time enforcement: compliance checks run at clock-out, not days later at payroll sync — so violations can still be remediated the same shift\nBiometric attestation: break offers are confirmed via Face ID / Touch ID, tying the record to the employee’s identity so it can’t be falsified after the fact\nAI law ingestion: compliance rules update automatically as California (and soon Nevada, Arizona, and other states) amend labor code — no manual patching\n\n\n\n\nThe Market Problem\n\nCalifornia wage-and-hour liability exceeds $2B annually\nTJ Maxx, Starbucks, and AlliedBarton alone have settled $42.5M+ combined for missed-break violations\nEmployers who take documented “reasonable steps” see roughly an 85% reduction in PAGA penalties\nZero existing payroll platforms can actually prove a break was offered — that’s the gap BreakPlate fills\n\n\n\n\n\nMy Role & Contributions\nAs co-founder, I lead go-to-market strategy and the marketing/growth analytics side of the business — positioning BreakPlate against incumbent payroll and HR platforms, building the pricing and outbound strategy for California employers, and setting up the data infrastructure to track pipeline, trial conversion, and customer acquisition cost as we move toward launch and fundraising. I’m also applying the same AI-agent and automation experience from my consulting work to help shape how BreakPlate’s compliance-monitoring product is positioned to both HR buyers and legal/risk stakeholders.\n\n\nLearning Outcomes\n\nBuilding GTM strategy for a category-creating B2B SaaS product (compliance-as-defense, not just compliance-as-checklist)\nTranslating a technical/legal product (AI law ingestion, biometric attestation) into a story that lands with HR and risk-management buyers\nStructuring an early-stage startup for investor conversations — market sizing, liability data, and a defensible wedge against much larger payroll incumbents\n\nVisit BreakPlate →"
+  },
+  {
+    "objectID": "presentation.html#who-i-am",
+    "href": "presentation.html#who-i-am",
+    "title": "Building Data-Driven Companies",
+    "section": "Who I Am",
+    "text": "Who I Am\n\nCo-founder, operator, and marketing-analytics practitioner\n8+ years turning messy multi-channel data into decisions\nCurrently building across three companies: event medicine, DTC apparel, and compliance SaaS\nFormer NCAA Decathlete — comfortable being good at many things at once"
+  },
+  {
+    "objectID": "presentation.html#the-problem-i-keep-solving",
+    "href": "presentation.html#the-problem-i-keep-solving",
+    "title": "Building Data-Driven Companies",
+    "section": "The Problem I Keep Solving",
+    "text": "The Problem I Keep Solving\n\nFounders and executives don’t lack data. They lack a trustworthy pipeline from raw data to a decision.\n\nAcross every company I’ve worked on, the pattern is the same:\n\nData lives in 4–6 disconnected systems (CRM, ad platforms, POS, ops tools)\nNo one owns reconciling it\nDecisions get made on vibes, not verified numbers\n\nMy job has consistently been building the layer that fixes that."
+  },
+  {
+    "objectID": "presentation.html#case-1-prevent-medical-solutions",
+    "href": "presentation.html#case-1-prevent-medical-solutions",
+    "title": "Building Data-Driven Companies",
+    "section": "Case 1 — Prevent Medical Solutions",
+    "text": "Case 1 — Prevent Medical Solutions\nProblem: Scaling from a startup to 580+ employees meant staffing and budget decisions had to be made before an event happened, not reconciled after.\nWhat I built:\n\nForecast models linking contracted event volume → staffing needs → labor cost\nBoard-level KPI dashboards tracking valuation-relevant metrics\nWorkforce-analytics pipeline supporting multi-site hiring at speed"
+  },
+  {
+    "objectID": "presentation.html#case-2-havea-apparel",
+    "href": "presentation.html#case-2-havea-apparel",
+    "title": "Building Data-Driven Companies",
+    "section": "Case 2 — Havea Apparel",
+    "text": "Case 2 — Havea Apparel\nProblem: A DTC Shopify brand needs to know which channel × creative × product combination actually converts — not just last-click attribution.\nWhat I built:\n# Simplified shape of the attribution join\n# (ad platform export + Shopify orders + on-site sessions)\n\nattributed = (\n    sessions\n    .merge(ad_spend, on=[\"utm_campaign\", \"date\"])\n    .merge(orders, on=\"session_id\", how=\"left\")\n    .assign(cac = lambda d: d.spend / d.orders.replace(0, pd.NA))\n)\nMeta Ads Manager + GA4 + Shopify orders, joined into one attribution table — so ad spend decisions are made on margin, not just click volume."
+  },
+  {
+    "objectID": "presentation.html#case-3-breakplate",
+    "href": "presentation.html#case-3-breakplate",
+    "title": "Building Data-Driven Companies",
+    "section": "Case 3 — BreakPlate",
+    "text": "Case 3 — BreakPlate\nProblem: California wage-and-hour liability is a $2B+/year problem, and no payroll platform can prove a break was offered.\nThe product’s technical core:\n\nReal-time compliance checks at clock-out (not batch, days later)\nBiometric attestation (Face ID / Touch ID) tied to each record\nAI-driven ingestion of statutory changes across jurisdictions\n\nMy role: GTM strategy, positioning against payroll incumbents, and the growth-analytics stack (pipeline, trial conversion, CAC) as we move toward launch."
+  },
+  {
+    "objectID": "presentation.html#the-common-analytics-stack",
+    "href": "presentation.html#the-common-analytics-stack",
+    "title": "Building Data-Driven Companies",
+    "section": "The Common Analytics Stack",
+    "text": "The Common Analytics Stack\n\n\n\nLayer\nTools I use\n\n\n\n\nExtraction\nSQL, Python, platform APIs (Meta, GA4, Shopify)\n\n\nTransformation\nPython/Pandas, Excel/Sheets for lighter workflows\n\n\nStorage / CRM\nSalesforce, HubSpot\n\n\nReporting\nDashboards (see the Dashboard tab), executive decks\n\n\nAutomation\nAI agents for lead qualification & funnel automation"
+  },
+  {
+    "objectID": "presentation.html#why-this-matters",
+    "href": "presentation.html#why-this-matters",
+    "title": "Building Data-Driven Companies",
+    "section": "Why This Matters",
+    "text": "Why This Matters\n\nGood data infrastructure is a competitive advantage, not overhead\nThe same skill set — build the pipeline, trust the number, tell the story — transfers across healthcare services, DTC retail, and B2B SaaS\nI’m looking for the next place to apply it"
+  },
+  {
+    "objectID": "presentation.html#lets-talk",
+    "href": "presentation.html#lets-talk",
+    "title": "Building Data-Driven Companies",
+    "section": "Let’s Talk",
+    "text": "Let’s Talk\nThomas Prata\nTom@breakplate.com  ·  LinkedIn  ·  Portfolio"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "I’ve spent the last several years building companies rather than just studying them — which means every project below comes with real revenue, real employees, and real compliance headaches attached. Below are the three ventures I’ve co-founded, spanning healthcare event services, consumer apparel, and B2B compliance SaaS. Each write-up covers the business problem, my role, the data/analytics systems I built, and the results."
+  },
+  {
+    "objectID": "projects.html#what-youll-find",
+    "href": "projects.html#what-youll-find",
+    "title": "Projects",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nScaling operations with data: how I used financial models and workforce analytics to help grow Prevent Medical Solutions to 580+ employees.\nBrand & e-commerce analytics: building the marketing and customer data foundation for a DTC apparel brand.\nProduct & GTM strategy for an early-stage SaaS startup: how BreakPlate is using data to sell compliance software into a $2B+ liability market."
+  },
+  {
+    "objectID": "projects/prevent-medical-solutions.qmdns.html",
+    "href": "projects/prevent-medical-solutions.qmdns.html",
+    "title": "Prevent Medical Solutions",
+    "section": "",
+    "text": "Overview\nPrevent Medical Solutions is an event-medical and public-safety services company I co-founded in 2022. We provide scalable, ICU-level medical activations for concerts, festivals, marathons, sporting events, and corporate gatherings — everything from a 200-person community race to events with 185,000+ attendees. Between 2023 and 2025 alone, the company has protected more than 6.1 million attendees and staff across Southern California and beyond.\nI hold the Co-Founder / President / Board Member role, and my day-to-day has centered on the financial and data infrastructure that let a company scale from a startup idea to 580+ employees and a $15M valuation in under four years.\n\n\n\n\nMy Role & Contributions\n\nDesigned and maintained the financial planning models, budget forecasts, and KPI dashboards the board and executive team use to make strategic calls\nBuilt workforce-analytics and hiring-pipeline reporting to support rapid, multi-site headcount scaling\nNegotiated and managed vendor/event-organizer contracts, using performance and ROI data to drive terms\nDirected operational data strategy across dispatch, staffing, and multi-site event logistics\n\n\n\n\nBusiness Impact\n\nScaled from founding team to 580+ employees\nReached a $15M company valuation\nProtected 6.1M+ attendees & staff (2023–2025)\nCapable of activating 80+ bed medical centers and full ICU-level care at events up to 185,000 attendees\nDeployed FirstNet/CAD-integrated real-time tracking (OnTrack) across event sites\n\n\n\n\n\nThe Data & Systems Side\nRunning a company that scales its headcount up and down with the events calendar means the ordinary HR and finance playbook doesn’t quite work. I built recurring reporting cycles that tie staffing forecasts to contracted event volume, so budget owners can see labor costs and margin per event type well before the event happens — rather than reconciling after the fact. That same discipline carries into vendor and vendor-performance tracking, where we use structured data (not just spreadsheets passed around) to decide who gets rebooked.\n\n\nLearning Outcomes\n\nWhat it actually takes to build financial and workforce reporting systems that scale with headcount, not against it\nHow to translate multi-stakeholder (board, ops, field staff) needs into a single reporting framework\nNegotiating from a position backed by real performance data, not gut feel\n\nVisit Prevent Medical Solutions →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thomas Prata",
+    "section": "",
+    "text": "headshot\n\n\n\n\n\nI’m a builder — of companies, of data systems, and of the reporting infrastructure that lets founders and executives make decisions with confidence. Over the last 8+ years I’ve co-founded and scaled a healthcare services company to a $15M valuation, launched a consumer apparel brand with my partner, and I’m currently building an AI-powered labor-compliance SaaS platform. Across all of it, the thread is the same: turn messy data into a clear story that drives the next decision.\nBased in San Dimas, CA · Tom@breakplate.com · LinkedIn"
+  },
+  {
+    "objectID": "index.html#career-objective",
+    "href": "index.html#career-objective",
+    "title": "Thomas Prata",
+    "section": "Career Objective",
+    "text": "Career Objective\nI’m looking to connect with founders, investors, and operators who need someone who can move fluidly between the boardroom and the SQL editor — someone who can design a go-to-market analytics stack, negotiate a vendor contract, and pitch the roadmap to a board, all in the same week. My long-term goal is to keep building companies where data infrastructure and marketing strategy are treated as a single discipline, not two separate departments."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Thomas Prata",
+    "section": "About Me",
+    "text": "About Me\nI hold a B.S. in Business Administration (Marketing) from California State Polytechnic University, Pomona, where I also competed as an NCAA Track & Field athlete in the decathlon — ten events, one score, no room to specialize in just one skill. That’s more or less how I’ve approached my career since: rather than picking one lane, I’ve built the range to run finance, operations, marketing, and analytics at the same time, which is exactly what early-stage companies need from a co-founder.\nSince 2022 I’ve been building Prevent Medical Solutions from the ground up, alongside launching Havea, an apparel brand I co-founded with my girlfriend, and most recently BreakPlate, a labor-compliance automation platform I’m building with my friend and co-founder McGwire Herbert. Details on all three are on the Projects page.\n\nHighlighted Achievements\n\nCo-founded and scaled Prevent Medical Solutions from a startup to 580+ employees and a $15M valuation\nDesigned the financial models, KPI dashboards, and workforce-analytics systems the board uses to make strategic decisions\nCurrently run marketing analytics engagements for 6+ retainer clients, spanning law firms, professional services, and consumer brands\nDeployed AI-powered client-acquisition agents that measurably increased lead volume for legal-industry clients\nFormer NCAA Division I Track & Field athlete (Decathlon), Cal Poly Pomona"
+  },
+  {
+    "objectID": "index.html#core-skills",
+    "href": "index.html#core-skills",
+    "title": "Thomas Prata",
+    "section": "Core Skills",
+    "text": "Core Skills\n\n\nAnalytics & Data\n\nSQL · Python · Advanced Excel/Sheets\nGoogle Analytics (GA4) · Meta Ads Manager\nDashboard design & BI reporting\nCampaign attribution modeling\n\n\nOperations & Strategy\n\nCRM management (Salesforce, HubSpot)\nBudget planning & financial oversight\nVendor & agency management\nAI agent deployment & funnel automation"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Thomas Prata",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI’m always glad to talk to founders, investors, or fellow operators. The fastest way to reach me is email, or find me on LinkedIn.\n\nWelcome to my portfolio — take a look at my projects, a live dashboard of one of my ventures, and a presentation walking through my technical work."
+  }
+]

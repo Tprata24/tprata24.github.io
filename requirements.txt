@@ -1,5 +1,0 @@
-pandas
-plotly
-jupyter
-nbformat
-kaleido
